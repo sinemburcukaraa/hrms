@@ -11,7 +11,7 @@ import com.example.demo.dataAccess.abstracts.jobPositonDao;
 @Service
 public class jobPositionManager implements JobPositionService{
     private jobPositonDao jobpositiondao;
-    @Autowired//bizim yerimize newleme işlemini yapıyor 
+    @Autowired
 	public jobPositionManager(jobPositonDao jobpositiondao) {
 		super();
 		this.jobpositiondao = jobpositiondao;
