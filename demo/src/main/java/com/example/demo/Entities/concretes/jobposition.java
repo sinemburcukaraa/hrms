@@ -11,7 +11,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data//getter setter
+@Data
 @Entity                         
 @Table(name = "job_positions")  
 @NoArgsConstructor              
